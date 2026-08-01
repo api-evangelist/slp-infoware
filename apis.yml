@@ -1,8 +1,26 @@
 aid: slp-infoware
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/slp-infoware.png
 name: SLP InfoWare
-description: SLP InfoWare is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: SLP InfoWare was a French software company founded in 1989 by graduates of Telecom
+  ParisTech and based in Paris, France, providing customer profiling, churn prediction, fraud
+  detection, and retention analytics to the telecommunications, banking, and insurance industries.
+  Its flagship products included CHURN MINER and a Churn/CPS application that analyzed customer
+  billing data to predict and prevent subscriber attrition. The company raised venture funding and
+  was acquired by Gemplus International SA in October 2000 (Gemplus later became part of Gemalto,
+  now Thales). No independent SLP InfoWare website, developer portal, or public API surface exists
+  today; this record is retained as a historical / portfolio-lineage entry in the API Evangelist
+  network and carries no live API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/slp-infoware/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +28,28 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: Acquired by Gemplus International SA in October 2000; no live domain resolves (slpinfoware.com NXDOMAIN as of 2026-07-21).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Telecommunications
+- Churn Analytics
+- Customer Retention
+- Fraud Detection
+- Data Analytics
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
